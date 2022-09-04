@@ -6,7 +6,7 @@
         {
             Console.WriteLine("WelCome to LogicalProgram");
 
-            Console.WriteLine("Choose option \n 1.Fibonacci Series  \n 2:Perfect Number \n 3: Prime Number \n 4:Reverse Number");
+            Console.WriteLine("Choose option \n 1.Fibonacci Series  \n 2:Perfect Number \n 3: Prime Number \n 4:Reverse Number \n 5.Coupon Number");
             int optionCheck = Convert.ToInt32(Console.ReadLine());
             switch (optionCheck)
             {
@@ -21,6 +21,9 @@
                     break;
                 case 4:
                     UC4Reverse_Number.ReverseNumber();
+                    break;
+                case 5:
+                    UC5CouponNum.CouponNumber();
                     break;
             }
 
